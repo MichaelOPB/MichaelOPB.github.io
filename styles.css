@@ -55,7 +55,8 @@ p {
     margin:50px;
 }
 #art{
-    ;
+    height: 50%;
+    width: 50%;
 }
 body{
     margin:0;
