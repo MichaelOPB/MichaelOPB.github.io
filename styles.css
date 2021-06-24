@@ -23,7 +23,13 @@ a:hover{
 #headshot{
     align-items: center;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
+}
+h1, h2, h5{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:xx-large;
+    margin: 25px;
 }
 .center{
     margin: auto;
@@ -32,12 +38,6 @@ a:hover{
     padding: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-h1, h2{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size:xx-large;
-    margin: 25px;
 }
 .video{
     margin-top: 0;
@@ -54,9 +54,18 @@ p {
     font-size: larger;
     margin:50px;
 }
-#art{
-    height: 50%;
+/*#art img{
     width: 50%;
+    margin: 0 auto;
+}*/
+#art{
+    background-image: url("img/mfbart.jpg");
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+
 }
 body{
     margin:0;
